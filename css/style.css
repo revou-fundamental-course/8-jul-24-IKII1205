@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif; /*mengatur font*/
+    margin: 0;/* mengatur margin*/
+    padding: 0;/*mengatur padding */
+    display: flex;/* agar elemen menjadi responsive*/
+    justify-content: center;/*agar elemen berada di tengah segi horizontal */
+    align-items: center;/*agar elemen berada di tengah segi vertikal */
+    height: 100vh;/*mengatur tinggi body */
+    background-image: url("../asset/background.jpg");/*untuk background */ 
+    background-size: cover; /* agar background menutupi semua */
+    background-position: center; /*background berada di tengah  */
+    background-repeat: no-repeat; /* agar tidak ada pengulangan background */
+}
+
+/*untuk design navbar*/
+.nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+/*untuk design container bagian yang transparant itu baik itu di navbar atau di formnya */
+.cont {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 100px;
+}
+
+/*untuk design h1 dan h5*/
+h1, h5 {
+    text-align: left;
+    margin-top: 2px;
+}
+
+/*untuk design inputan pada formyang bertype angka*/
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/*untuk design button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*untuk design button agar pada saat dipencet atau cursor mengarah ke button jadi ada warna berbeda atau penanda bahwa cursor tuh udah kena di button*/
+button:hover {
+    background-color: #218838;
+}
+
+/*untuk design paragraf*/
+p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*untuk design reset button */
+#resetButton {
+        display: none;
+    }
+
+
